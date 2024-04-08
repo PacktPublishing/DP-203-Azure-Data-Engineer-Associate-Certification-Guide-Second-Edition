@@ -1,6 +1,6 @@
 # Azure Data Engineer Associate Certification Guide (DP-203), Second ed.
 
-This is the repository for [Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) published by Packt (https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
+This is the repository for [Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## About DP-203 Study Guide
 
