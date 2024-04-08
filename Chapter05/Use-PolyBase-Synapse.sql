@@ -1,4 +1,4 @@
--- Synapse SQL PolyBase Example
+-- Synapse SQL PolyBase Example To Load Data From External Location.
 
 IF NOT EXISTS (SELECT * FROM sys.external_file_formats WHERE name = 'Dp203ParquetFormat') 
 	CREATE EXTERNAL FILE FORMAT [Dp203ParquetFormat] 
