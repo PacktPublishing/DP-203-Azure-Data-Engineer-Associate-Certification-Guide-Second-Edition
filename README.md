@@ -1,10 +1,10 @@
-# Azure Data Engineer Associate Certification Guide (DP-203), Second ed.
+# Azure Data Engineer Associate Certification Guide (DP-203), Second Ed.
 
 This is the repository for [Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## About DP-203 Study Guide
 
-[Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) This book is a complete step-by-step explanation of essential concepts, practical examples, and self-assessment questions. You will begin by exploring the basics of Azure, diving deeper into the details of storage, compute, security, monitoring, high availability, etc., and finally, apply your knowledge via practice questions and answers. The book will also help engineers and product managers who are new to Azure or interviewing with companies working on Azure technologies, to get hands-on experience with Azure data technologies.
+[Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) is a complete step-by-step explanation of essential concepts, practical examples, and self-assessment questions. You will begin by exploring the basics of Azure, diving deeper into the details of storage, compute, security, monitoring, high availability, etc., and finally, apply your knowledge via practice questions and answers. The book will also help engineers and product managers who are new to Azure or interviewing with companies working on Azure technologies, to get hands-on experience with Azure data technologies.
 
 ## What You Will learn
 * Gain intermediate-level knowledge of Azure the data infrastructure.
