@@ -1,7 +1,7 @@
 # Chapter 5
 
 ## Overview
-In this chapter **"Develop a batch processing solution"**, You will explore code examples for: 
+In this chapter **"Develop a Batch Processing Solution"**, You will explore code examples for: 
 
 * Batch Transformations using Azure Databricks
 * COPY using POLYBASE
