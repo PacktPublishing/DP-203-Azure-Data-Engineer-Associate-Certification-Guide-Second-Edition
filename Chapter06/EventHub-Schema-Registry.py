@@ -1,6 +1,6 @@
 # Registering A Schema With Schema Registry
 
-#Import the necessary libraries
+# Import the necessary libraries
 from azure.schemaregistry import SchemaRegistryClient
 from azure.identity import DefaultAzureCredential
 
@@ -25,7 +25,7 @@ schema_registry_client = SchemaRegistryClient
         credential=azureCredential
     )
 
-#Register the Schema
+# Register the Schema
 with schema_registry_client:
     schema_properties = schema_registry_client.register_schema
     (
@@ -35,5 +35,5 @@ with schema_registry_client:
     "Avro  "
     )
 
-#Get The Schema ID
+# Get The Schema ID
 schema_id = schema_properties.id
