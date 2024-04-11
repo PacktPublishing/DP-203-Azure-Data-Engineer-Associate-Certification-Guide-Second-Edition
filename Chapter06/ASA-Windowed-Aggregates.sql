@@ -1,7 +1,7 @@
 -- ASA Windowed Aggregates Examples
 -- You will have to copy these SQL snippets into your ASA Job Query section and run it one by one.
 
--- **Tumbling window example** in ASA. It calculates the number of trips grouped by Location, in 10-second-wide tumbling windows.
+-- Tumbling window example in ASA. It calculates the number of trips grouped by Location, in 10-second-wide tumbling windows.
 SELECT System.Timestamp() AS WindowEnd, tripLocation, COUNT(*)  
 INTO [Output]
 FROM [Input] TIMESTAMP BY createdAt  
