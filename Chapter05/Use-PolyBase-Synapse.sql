@@ -27,3 +27,13 @@ SELECT
 	[endLocation] VARCHAR (50)
 FROM 
     OPENROWSET(BULK '/partition/year=2022/*/*/*.parquet', FORMAT='PARQUET')
+
+-- Copy the data from the external table into an actual SQL table.
+CREATE TABLE TripsProdTable
+WITH
+(
+    CLUSTERED COLUMNSTORE INDEX,
+    DISTRIBUTION = ROUND_ROBIN
+)
+AS
+SELECT * FROM TripsExtTable
