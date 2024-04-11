@@ -12,7 +12,7 @@ fully_qualified_namespace=<SCHEMA-NAMESPACE>.servicebus.windows.net,
 credential=azureCredential
 )
 
-#Retrieve The Schema
+# Retrieve The Schema
 with schema_registry_client:
     schema = schema_registry_client.get_schema(schema_id)
     definition = schema.definition
