@@ -1,0 +1,98 @@
+{
+    "employees": [
+      {
+        "firstname": "John",
+        "middlename": "Michael",
+        "lastname": "Doe",
+        "id": "001",
+        "locations": [
+          {
+            "state": "California",
+            "city": "Los Angeles"
+          },
+          {
+            "state": "Texas",
+            "city": "Houston"
+          }
+        ],
+        "gender": "Male",
+        "salary": 75000
+      },
+      {
+        "firstname": "Jane",
+        "middlename": "Elizabeth",
+        "lastname": "Smith",
+        "id": "002",
+        "locations": [
+          {
+            "state": "New York",
+            "city": "New York City"
+          },
+          {
+            "state": "Florida",
+            "city": "Miami"
+          }
+        ],
+        "gender": "Female",
+        "salary": 80000
+      },
+      {
+        "firstname": "David",
+        "middlename": "Robert",
+        "lastname": "Johnson",
+        "id": "003",
+        "locations": [
+          {
+            "state": "Illinois",
+            "city": "Chicago"
+          },
+          {
+            "state": "Washington",
+            "city": "Seattle"
+          }
+        ],
+        "gender": "Male",
+        "salary": 70000
+      },
+      {
+        "firstname": "Emily",
+        "middlename": "Anne",
+        "lastname": "Williams",
+        "id": "004",
+        "locations": [
+          {
+            "state": "Massachusetts",
+            "city": "Boston"
+          },
+          {
+            "state": "California",
+            "city": "San Francisco"
+          }
+        ],
+        "gender": "Female",
+        "salary": 85000
+      },
+      {
+        "firstname": "Alice",
+        "middlename": "",
+        "lastname": "Hood",
+        "id": "100",
+        "locations": [
+          {
+            "state": "CA",
+            "city": "San Francisco"
+          },
+          {
+            "state": "CA",
+            "city": "San Jose"
+          },
+          {
+            "state": "FL",
+            "city": "Miami"
+          }
+        ],
+        "gender": "Female"
+      }
+    ]
+  }
+  
