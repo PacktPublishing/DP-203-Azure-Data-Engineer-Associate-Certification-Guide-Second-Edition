@@ -27,8 +27,8 @@ CREATE TABLE Customer (
         ALGORITHM = 'AEAD_AES_256_CBC_HMAC_SHA_256'),   
 );  
 
-INSERT INTO Customer VALUES (101, 'Alan Li', 'alan@li.com', '111-222-3333', '111-11-1111');
-INSERT INTO Customer VALUES (102, 'Becky King', 'becky@king.com', '222-333-4444', '222-22-2222');
-INSERT INTO Customer VALUES (103, 'Daniel Martin', 'daniel@someone.com', '333-444-555', '333-33-3333');
+INSERT INTO Customer VALUES (101, 'Alan Li', 'alan@dp203.com', '111-222-3333', '111-11-1111');
+INSERT INTO Customer VALUES (102, 'Becky King', 'becky@dp203.com', '222-333-4444', '222-22-2222');
+INSERT INTO Customer VALUES (103, 'Daniel Martin', 'daniel@dp203.com', '333-444-555', '333-33-3333');
 
 SELECT * FROM Customer;
