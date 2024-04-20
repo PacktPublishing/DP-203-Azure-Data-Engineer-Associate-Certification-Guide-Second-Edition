@@ -21,12 +21,12 @@ GO
 
 -- Insert some sample values. In reality the Fact tables will have Millions of rows.
 
- INSERT INTO dbo.FactTrips VALUES (101, 201, 301, 20220101, 'New York', 'New Jersey');
- INSERT INTO dbo.FactTrips VALUES (102, 202, 302, 20220101, 'Miami', 'Dallas');
- INSERT INTO dbo.FactTrips VALUES (103, 203, 303, 20220102, 'Phoenix', 'Tempe');
- INSERT INTO dbo.FactTrips VALUES (104, 204, 304, 20220204, 'LA', 'San Jose');
- INSERT INTO dbo.FactTrips VALUES (105, 205, 305, 20220205, 'Seattle', 'Redmond');
- INSERT INTO dbo.FactTrips VALUES (106, 206, 306, 20220301, 'Atlanta', 'Chicago');
+ INSERT INTO dbo.FactTrips VALUES (101, 201, 301, 20240101, 'New York', 'New Jersey');
+ INSERT INTO dbo.FactTrips VALUES (102, 202, 302, 20240101, 'Miami', 'Dallas');
+ INSERT INTO dbo.FactTrips VALUES (103, 203, 303, 20240102, 'Phoenix', 'Tempe');
+ INSERT INTO dbo.FactTrips VALUES (104, 204, 304, 20240204, 'LA', 'San Jose');
+ INSERT INTO dbo.FactTrips VALUES (105, 205, 305, 20240205, 'Seattle', 'Redmond');
+ INSERT INTO dbo.FactTrips VALUES (106, 206, 306, 20240301, 'Atlanta', 'Chicago');
 
 SELECT * from dbo.FactTrips;
 
