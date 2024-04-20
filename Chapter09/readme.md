@@ -1,7 +1,7 @@
 # Chapter 09
 
 ## Overview
-In this chapter, **"Monitoring data storage and data processing"**, You will see code examples for: 
+In this chapter, **"Monitoring Data Storage and Data Processing"**, You will see code examples for: 
 
 * Creating statistics for Synapse dedicated pools
 * Creating statistics for Synapse serverless pools
