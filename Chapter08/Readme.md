@@ -1,7 +1,7 @@
 # Chapter 08
 
 ## Overview
-In this chapter **"Implmenting Data Security"**, You will explore code examples for:  
+In this chapter **"Implementing Data Security"**, You will explore code examples for:  
 
 * Data Masking in Synapse SQL
 * Always Encrypted in Azure SQL
