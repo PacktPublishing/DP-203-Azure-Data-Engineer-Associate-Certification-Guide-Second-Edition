@@ -1,7 +1,7 @@
 # Chapter 4
 
 ## Overview
-In this chapter "**Ingest and Transform data**", You will see code examples for: 
+In this chapter "**Ingesting and Transforming data**", You will see code examples for: 
 
 * Spark transformations
 * T-SQL trasformations
