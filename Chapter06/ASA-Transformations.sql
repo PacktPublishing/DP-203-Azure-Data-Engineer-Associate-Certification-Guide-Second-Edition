@@ -13,8 +13,7 @@ SELECT tripId, SUM(CAST(fare AS FLOAT)) AS TenSecondFares
 INTO [Output]
 FROM [Input] TIMESTAMP BY createdAt
 GROUP BY
-tripId, TumblingWindow(second, 10)
-
+    tripId, TumblingWindow(second, 10)
 
 SELECT *
 INTO [Output]
