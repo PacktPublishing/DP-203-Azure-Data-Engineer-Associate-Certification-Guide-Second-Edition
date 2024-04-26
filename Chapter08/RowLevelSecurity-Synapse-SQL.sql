@@ -18,13 +18,16 @@ CREATE TABLE dbo.TripTable
     CLUSTERED COLUMNSTORE INDEX,
     DISTRIBUTION = HASH ([tripId])
 )
-
- INSERT INTO dbo.TripTable VALUES (111, 201, 301, 20240101, 'New York', 'New Jersey');
- INSERT INTO dbo.TripTable VALUES (112, 202, 302, 20240101, 'Miami', 'Dallas');
- INSERT INTO dbo.TripTable VALUES (113, 203, 302, 20240102, 'Phoenix', 'Tempe');
- INSERT INTO dbo.TripTable VALUES (114, 204, 303, 20240204, 'LA', 'San Jose');
- INSERT INTO dbo.TripTable VALUES (115, 205, 304, 20240205, 'Seattle', 'Redmond');
- INSERT INTO dbo.TripTable VALUES (116, 203, 305, 20240301, 'Atlanta', 'Chicago');
+INSERT INTO dbo.TripTable VALUES (101, 201, 301, 20240101, 'New York', 'New Jersey');
+INSERT INTO dbo.TripTable VALUES (102, 202, 302, 20240101, 'Miami', 'Dallas');
+INSERT INTO dbo.TripTable VALUES (103, 203, 303, 20240102, 'Phoenix', 'Tempe');
+INSERT INTO dbo.TripTable VALUES (106, 206, 306, 20240301, 'Atalanta', 'Chicago');
+INSERT INTO dbo.TripTable VALUES (111, 201, 301, 20240101, 'New York', 'New Jersey');
+INSERT INTO dbo.TripTable VALUES (112, 202, 302, 20240101, 'Miami', 'Dallas');
+INSERT INTO dbo.TripTable VALUES (113, 203, 302, 20240102, 'Phoenix', 'Tempe');
+INSERT INTO dbo.TripTable VALUES (114, 204, 303, 20240204, 'LA', 'San Jose');
+INSERT INTO dbo.TripTable VALUES (115, 205, 304, 20240205, 'Seattle', 'Redmond');
+INSERT INTO dbo.TripTable VALUES (116, 203, 305, 20240301, 'Atlanta', 'Chicago');
 
 -- Insert a row with tripId >= 900, as we will use that as the condition to restrict the row views to non-privelleged users
 INSERT INTO dbo.TripTable VALUES (900, 299, 399, 20240301, 'Pre-Launch', 'Pre-Launch');
