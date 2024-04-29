@@ -22,4 +22,4 @@ After installing Azure CLI on your computer, start a Windows PowerShell terminal
 az login
 ```
 This should take you to a browser where you can log-in to Azure.
-Once logged in, start from the AzureCloudShell.ps1 PowerShell script in this directory.
+Once logged in, start from the Azure_Cloud_Shell.ps1 PowerShell script in this directory.
