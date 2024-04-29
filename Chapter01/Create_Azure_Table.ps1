@@ -1,13 +1,12 @@
-#Creating Azure File shares
+# Creating Azure Table
 
 $resourceGroup = "<INSERT RESOURCE GROUP NAME>"
 $storageAccount ="<INSERT STORAGE ACCOUNT NAME>"
 $storageKey = "<INSERT STORAGE KEY>"
 # Note: It is not recommended to store passwords or access keys in code files.
-# Please use Microsoft Entra ID and Azure Key Vault to store secrets
+# Please use AAD accounts and Azure Key Vault to store secrets
 $region = "<INSERT REGION NAME>"
-$fileshareName = "<INSERT FILE SHARE NAME>"
-
+$tableName = "<INSERT TABLE NAME>"
 
 #    The following variations are accepted for setting the Key:
 #    (1) account name and key (--account-name and --account-key options or
@@ -24,13 +23,12 @@ $fileshareName = "<INSERT FILE SHARE NAME>"
     $env:AZURE_STORAGE_ACCOUNT=$storageAccount
     $env:AZURE_STORAGE_KEY=$storageKey
 
-#   You can create a new Azure File Share for IAC using the share-rm create option:
-    az storage share-rm create --resource-group $resourceGroup --storage-account $storageAccount --name $fileshareName --quota 1024
-#   You can list the file shares using the share list option:
-    az storage share list --account-name $storageAccount
-#   You can put a file into our File share using the file upload option:
-    az storage file upload --share-name $fileshareName --source Data/testfile.txt
-#   You can view the files in your File share using file list:
-    az storage file list --share-name $fileshareName
-#   Finally, you can download the file that we previously uploaded using the file download option:
-    az storage file download --share-name $fileshareName -p testfile.txt --dest ./testfile.txt
+
+#   We can create a new Azure Table for our example company, IAC, by using the storage table create option:
+    az storage table create --name $tableName  --account-name $storageAccount
+#	We can easily list the Tables under a storage account using the storage table list option:
+    az storage table list --account-name $storageAccount
+# 	We can insert an entity into the newly created Table using the storage entity insert option:
+    az storage entity insert --table-name $tableName  --entity PartitionKey=testPartKey RowKey=testRowKey Content=testContent
+#   Finally, we can use the storage entity show command to view the entry:
+    az storage entity show --table-name $tableName  --partition-key testPartKey --row-key testRowKey
