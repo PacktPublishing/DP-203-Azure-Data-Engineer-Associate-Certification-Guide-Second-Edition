@@ -26,11 +26,15 @@ $fileshareName = "<INSERT FILE SHARE NAME>"
 
 #   You can create a new Azure File Share for IAC using the share-rm create option:
     az storage share-rm create --resource-group $resourceGroup --storage-account $storageAccount --name $fileshareName --quota 1024
+
 #   You can list the file shares using the share list option:
     az storage share list --account-name $storageAccount
+
 #   You can put a file into our File share using the file upload option:
     az storage file upload --share-name $fileshareName --source Data/testfile.txt
+
 #   You can view the files in your File share using file list:
     az storage file list --share-name $fileshareName
+    
 #   Finally, you can download the file that we previously uploaded using the file download option:
     az storage file download --share-name $fileshareName -p testfile.txt --dest ./testfile.txt
