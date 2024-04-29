@@ -1,7 +1,7 @@
 # Chapter 2
 
 ## Overview
-In this chapter, **"Implementing a Partition Strategy"**, You will see how to create: 
+In this chapter, **"Implementing a Partition Strategy"**, You will see code examples for: 
 
 * Synapse SQL Distribution Strategy
 * Dedicated SQL pool example with pruning
