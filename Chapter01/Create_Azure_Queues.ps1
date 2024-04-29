@@ -25,9 +25,12 @@ $queueName = "<INSERT QUEUE NAME>"
 
 #   You can create a new Azure queue using the storage queue create command:
     az storage queue create --name $queueName --account-name $storageAccount
+
 #   You can easily list the queues under a storage account using the storage queue list term:
     az storage queue list --account-name $storageAccount
+
 #   You can add a new message to the newly created Queue using the storage message put option:
     az storage message put --queue-name $queueName --content "test"
+    
 #   Finally, use the storage message peek command to view the message. This command retrieves one or more messages from the front of the queue but does not alter the visibility of the message:
     az storage message peek --queue-name $queueName

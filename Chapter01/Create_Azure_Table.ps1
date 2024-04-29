@@ -26,9 +26,12 @@ $tableName = "<INSERT TABLE NAME>"
 
 #   We can create a new Azure Table for our example company, IAC, by using the storage table create option:
     az storage table create --name $tableName  --account-name $storageAccount
+
 #	We can easily list the Tables under a storage account using the storage table list option:
     az storage table list --account-name $storageAccount
+
 # 	We can insert an entity into the newly created Table using the storage entity insert option:
     az storage entity insert --table-name $tableName  --entity PartitionKey=testPartKey RowKey=testRowKey Content=testContent
+    
 #   Finally, we can use the storage entity show command to view the entry:
     az storage entity show --table-name $tableName  --partition-key testPartKey --row-key testRowKey
