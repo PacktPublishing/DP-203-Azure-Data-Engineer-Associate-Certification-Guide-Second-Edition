@@ -7,6 +7,7 @@ In this chapter **"Azure Basics"**, You will see how to create:
 * Azure File Shares
 * Azure Queues
 * Azure Tables
+* Azure Storage
 
 
 ## Steps:
