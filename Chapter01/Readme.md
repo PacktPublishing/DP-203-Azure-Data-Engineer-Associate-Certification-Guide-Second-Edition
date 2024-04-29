@@ -1,7 +1,7 @@
 # Chapter 1
 
 ## Overview
-In this chapter, "Azure Basics", You will see how to create: 
+In this chapter **"Azure Basics"**, You will see how to create: 
 
 * Azure VMs
 * Azure File Shares
