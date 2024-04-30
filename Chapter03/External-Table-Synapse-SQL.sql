@@ -1,18 +1,23 @@
--- External Table Example
+-- External Table Example - Synapse SQL
+
+-- External File Format (Parquet)
 
 IF NOT EXISTS (SELECT * FROM sys.external_file_formats WHERE name = 'Dp203ParquetFormat') 
 	CREATE EXTERNAL FILE FORMAT [Dp203ParquetFormat] 
 	WITH ( FORMAT_TYPE = PARQUET)
 GO
 
+-- External Data Source
+
 IF NOT EXISTS (SELECT * FROM sys.external_data_sources WHERE name = 'Dp203DataSource') 
 	CREATE EXTERNAL DATA SOURCE [Dp203DataSource] 
-	WITH (
+	WITH 
+	(
 		LOCATION  = '<INSERT abfss://  DATA SOURCE LOCATION>' 
 	)
-G0
+	GO
 
---DROP EXTERNAL TABLE TestExtTable;
+--DROP EXTERNAL TABLE IF EXISTS TestExtTable;
 
 CREATE EXTERNAL TABLE TestExtTable (
 	[tripId] INT,
@@ -27,9 +32,6 @@ WITH (
 	LOCATION = '/parquet/trips/*.parquet',
 	DATA_SOURCE = [Dp203DataSource],
 	FILE_FORMAT = [Dp203ParquetFormat]
-)
-GO
+);
 
-SELECT TOP 100 * FROM TestExtTable
-GO
-
+SELECT TOP 100 * FROM TestExtTable;
