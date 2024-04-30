@@ -6,6 +6,7 @@ In this chapter, **"Implementing a Partition Strategy"**, You will see code exam
 * Synapse SQL Distribution Strategy
 * Dedicated SQL pool example with pruning
 * Spark example with pruning
+* Synapse SQL Partition Switiching
 
 
 ## Steps:
