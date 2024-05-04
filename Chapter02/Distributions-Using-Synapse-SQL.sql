@@ -1,7 +1,9 @@
 -- Synapse SQL Distribution Strategy
 
 -- Here is a simple example of creating a round-robin distributed table in Dedicated SQL Pool.
--- Round Robin is the default option, so you don't have to specify the DISTRIBUTION OPTION
+-- Round Robin is the default option, so you don't have to specify the DISTRIBUTION OPTION.
+
+
 -- DROP TABLE dbo.CabTable1;  
 
 CREATE TABLE dbo.CabTable1
