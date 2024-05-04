@@ -18,6 +18,7 @@ $nicName = "sampleNIC"
 
 # First, we have to find all the Ubuntu images that are available using the vm image list option:
 az vm image list --all --offer Ubuntu --all
+
 # Next, we need to find the Azure regions where we want to deploy. We can use account list-locations for this. You can choose a region that is closest to you:
 az account list-locations --output table
 
