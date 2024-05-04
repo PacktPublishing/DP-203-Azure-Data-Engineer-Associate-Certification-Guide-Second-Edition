@@ -1,0 +1,56 @@
+{
+    "rules": [
+      {
+        "name": "TransitionToCoolAfter30Days",
+        "enabled": true,
+        "type": "Lifecycle",
+        "definition": {
+          "actions": {
+            "baseBlob": {
+              "tierToCool": {
+                "daysAfterModificationGreaterThan": 30
+              }
+            }
+          },
+          "filters": {
+            "blobTypes": ["blockBlob"]
+          }
+        }
+      },
+      {
+        "name": "ArchiveAfter90Days",
+        "enabled": true,
+        "type": "Lifecycle",
+        "definition": {
+          "actions": {
+            "baseBlob": {
+              "tierToArchive": {
+                "daysAfterModificationGreaterThan": 90
+              }
+            }
+          },
+          "filters": {
+            "blobTypes": ["blockBlob"]
+          }
+        }
+      },
+      {
+        "name": "DeleteAfter2555Days",
+        "enabled": true,
+        "type": "Lifecycle",
+        "definition": {
+          "actions": {
+            "baseBlob": {
+              "delete": {
+                "daysAfterModificationGreaterThan": 2555
+              }
+            }
+          },
+          "filters": {
+            "blobTypes": ["blockBlob"]
+          }
+        }
+      }
+    ]
+  }
+  
