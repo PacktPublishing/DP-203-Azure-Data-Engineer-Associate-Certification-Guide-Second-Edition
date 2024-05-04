@@ -28,9 +28,7 @@ INSERT INTO dbo.TripTable VALUES (103, 203, 303, 20240204, 'LA', 'San Jose');
 INSERT INTO dbo.TripTable VALUES (104, 204, 304, 20240205, 'Seattle', 'Redmond');
 INSERT INTO dbo.TripTable VALUES (105, 205, 305, 20240301, 'Atlanta', 'Chicago');
 
--- If find all the customers who traveled with IAC in the month of January. 
--- All you need to do is use a simple filter, such as in the following example:
--- Tis will ensure that only the data in the below partitions are read and not a 
--- full table scan.
+-- If you have to find all the customers who traveled with IAC in the month of January, All you need to do is use a simple filter, such as in the following example:
+-- This will ensure that only the data in the below partitions are read and not a full table scan.
 
 SELECT customerId FROM TripTable WHERE tripDate BETWEEN '20240101' AND '20240131'
