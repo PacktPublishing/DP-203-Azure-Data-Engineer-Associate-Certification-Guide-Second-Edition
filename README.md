@@ -6,7 +6,7 @@ This is the code repository for [Azure Data Engineer Associate Certification Gui
 
 
 ## What is This Book About
-As cloud adoption surges, data engineering expertise is in high demand. Companies increasingly rely on cloud-based data solutions, creating a surge in data engineering jobs. This competitive landscape pushes both aspiring and experienced data engineers to showcase their skills. If you are a data engineer or data architect or cloud architect or solution architect, or a DataOps professional, who is new to Azure or interviewing with companies working on Azure technologies, his boo will help you get a hands-on experience with Azure data technologies.
+As cloud adoption surges, data engineering expertise is in high demand. Companies increasingly rely on cloud-based data solutions, creating a surge in data engineering jobs. This competitive landscape pushes both aspiring and experienced data engineers to showcase their skills. If you are a data engineer, a data architect, a cloud architect, a solution architect, or a DataOps professional, who is new to Azure or interviewing with companies working on Azure technologies, his boo will help you get a hands-on experience with Azure data technologies.
 
 In this book, [Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition), you will begin by exploring the basics of Azure, diving deeper into the details of storage, compute, security, monitoring, high availability, etc., and finally, apply your knowledge via practice questions and answers; all in all a complete step-by-step explanation of essential concepts, practical examples, and self-assessment questions. 
 
