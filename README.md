@@ -1,6 +1,6 @@
 # Azure Data Engineer Associate Certification Guide, Second ed.
 
-<span style="font-size: 1.2em;">Ace the DP-203 exam with advanced data engineering skills</span>
+**<span style="font-size: 1.2em;">Ace the DP-203 exam with advanced data engineering skills</span>
 
 This is the code repository for [Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
