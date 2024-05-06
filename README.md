@@ -1,10 +1,8 @@
 # Azure Data Engineer Associate Certification Guide (DP-203), II ed.
 
-<a href="[Packt UTM URL of the Book](https://www.packtpub.com/product/azure-data-engineer-associate-certification-guide-second-edition/9781805124689"><img src="https://packtservices.sharepoint.com/sites/CoreLearning/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCoreLearning%2FShared%20Documents%2FCore%20Learning%2FWorking%2DTitles%2FB21126%5FAzure%20Data%20Engineer%20Associate%20Certification%20Guide%2D2ndEdition%2F4%2E%20Cover&viewid=ce5d8dab%2D3240%2D49dc%2Db7d5%2D74b60f50cdad/cover_image_large.jpg" alt="Book Name" height="256px" align="right"></a>
+**Ace the DP-203 exam with advanced data engineering skills**
 
 This is the code repository for [Azure Data Engineer Associate Certification Guide (DP-203), Second ed.](https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition) published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
-
-**Ace the DP-203 exam with advanced data engineering skills**
 
 ## What is this book about
 As cloud adoption surges, data engineering expertise is in high demand. Companies increasingly rely on cloud-based data solutions, creating a surge in data engineering jobs. This competitive landscape pushes both aspiring and experienced data engineers to showcase their skills.
