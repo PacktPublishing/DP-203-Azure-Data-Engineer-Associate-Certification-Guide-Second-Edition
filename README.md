@@ -23,13 +23,6 @@ This book covers the following exciting features:
 If you feel this book is for you, get your [copy](https://www.amazon.in/Azure-Engineer-Associate-Certification-Guide-ebook/dp/B0CV4CRHLQ/ref=sr_1_10?crid=36PJXF6WUWPRX&dib=eyJ2IjoiMSJ9.5GsWaOUOTUwEbVc1adt3K1Huiv8YiuskiEjOaHSAqnm2JrztreKeXjmeeTBIdUyLPsGFMYax62Fo08eNu1ylxR-iEg9pmZtwSb2mLXerURvW875PFE5kjU1byUSlLSvJXgVfns0H1hZRNOtwej61hZ3W15YQBTTf8Uemr0g4IKnKdfQzSPcuIQ2mFk344bOd.aAk68nY02dIXKLMxdR72dSD62VCWbZV6HOgbwqCXs4U&dib_tag=se&keywords=books+dp-203&qid=1714976837&sprefix=books+dp-20%2Caps%2C1266&sr=8-10) today!
 
 
-## Related Books
-If you've found this book useful, you might want to check out some of our other titles:
-* [Azure Data Engineer Associate Certification Guide](https://www.amazon.in/Azure-Engineer-Associate-Certification-hands/dp/1801816069/ref=sr_1_1?crid=1S8RR27Q6XUHX&dib=eyJ2IjoiMSJ9.xr9jHgILWjJWD5qSFWFf8J7FXxG3b203RA8-WM77GPiXMAGKhERko4BUxIpQeL_QJOEIEnz1reeiiCBRKEoq8Vk0XhgkICQvLZe5xk706GtV8DrFY2hA7MaKNQBPmUxdBlBF9PZD1YmHjw3ZpYBq7A.SyUx4LIjsktnDEJkP9VeKl3vNOCi2eZsx91oKPFTeaM&dib_tag=se&keywords=dp-203&qid=1712577798&s=books&sprefix=dp-203%2Cstripbooks%2C421&sr=1-1)
-
-* [Azure Data Scientist Associate Certification Guide]( https://www.amazon.in/Azure-Scientist-Associate-Certification-hands-ebook/dp/B09CQ4YLTN/ref=sr_1_7?crid=3BNR1LYV3SFNX&dib=eyJ2IjoiMSJ9.Tx-O8JKg2CH2XSoEpw2QQGkYcndMw5sBM30sMv8F3PCTLS8snFZc6Hz6s8SFDfn_ofbD7njsuBMpsHpXytGKhSkRb4EKyhwes5ET9fjb33QcijusItXN0v_6tYCgngHcrRiahVWff6vSV__V4DUnPaYccIo6orWq1tIubHQJuRRWtVFrxJ3XM7kC0jEgFHGxqlomMJ3fMIE3Vh8efWZwJYwMQUX5uekIuq67STFYen0.w4Aj3EAGyNaToh37hGkpGt72SnEVrG4_A42LU1ZNEQY&dib_tag=se&keywords=Azure+Data+Engineer+Associate+Certification+Guide&qid=1712578032&s=books&sprefix=azure+data+engineer+associate+certification+guide%2Cstripbooks%2C286&sr=1-7)
-
-
 ## Get to Know the Authors
 **Giacinto Palmieri** has been working in the IT sector for more than 35 years (initially in his native Italy and then in London, where he moved 23 years ago) as a trainer, software developer, data engineer, and consultant. In the past three years, he has been focusing mostly on his activity as a Microsoft Certified Trainer with particular focus on Azure data services, Azure development, and the Power Platform. Outside of IT, he holds an MA in Philosophy and a PhD in Translation Studies and sometimes performs as a stand-up comedian, even bringing several shows to the Edinburgh Fringe Festival (a fact he tends to hide from his IT course participants, lest they expect a laugh per minute experience).
 
@@ -37,4 +30,11 @@ If you've found this book useful, you might want to check out some of our other 
 
 **Newton Alex** leads several Azure Data Analytics teams in Microsoft, India. His team contributes to technologies including Azure Synapse, Azure Databricks, Azure HDInsight, and many open source technologies, including Apache YARN, Apache Spark, and Apache Hive.
 He started using Hadoop while at Yahoo, USA, where he helped build the first batch processing pipelines for Yahoo’s ad serving team. After Yahoo, he became the leader of the big data team at Pivotal Inc., USA, where he was responsible for the entire open source stack of Pivotal Inc. He later moved to Microsoft and started the Azure Data team in India. He has worked with several Fortune 500 companies to help build their data systems on Azure.
+
+
+## Related Books
+If you've found this book useful, you might want to check out some of our other titles:
+* [Azure Data Engineer Associate Certification Guide](https://www.amazon.in/Azure-Engineer-Associate-Certification-hands/dp/1801816069/ref=sr_1_1?crid=1S8RR27Q6XUHX&dib=eyJ2IjoiMSJ9.xr9jHgILWjJWD5qSFWFf8J7FXxG3b203RA8-WM77GPiXMAGKhERko4BUxIpQeL_QJOEIEnz1reeiiCBRKEoq8Vk0XhgkICQvLZe5xk706GtV8DrFY2hA7MaKNQBPmUxdBlBF9PZD1YmHjw3ZpYBq7A.SyUx4LIjsktnDEJkP9VeKl3vNOCi2eZsx91oKPFTeaM&dib_tag=se&keywords=dp-203&qid=1712577798&s=books&sprefix=dp-203%2Cstripbooks%2C421&sr=1-1)
+
+* [Azure Data Scientist Associate Certification Guide]( https://www.amazon.in/Azure-Scientist-Associate-Certification-hands-ebook/dp/B09CQ4YLTN/ref=sr_1_7?crid=3BNR1LYV3SFNX&dib=eyJ2IjoiMSJ9.Tx-O8JKg2CH2XSoEpw2QQGkYcndMw5sBM30sMv8F3PCTLS8snFZc6Hz6s8SFDfn_ofbD7njsuBMpsHpXytGKhSkRb4EKyhwes5ET9fjb33QcijusItXN0v_6tYCgngHcrRiahVWff6vSV__V4DUnPaYccIo6orWq1tIubHQJuRRWtVFrxJ3XM7kC0jEgFHGxqlomMJ3fMIE3Vh8efWZwJYwMQUX5uekIuq67STFYen0.w4Aj3EAGyNaToh37hGkpGt72SnEVrG4_A42LU1ZNEQY&dib_tag=se&keywords=Azure+Data+Engineer+Associate+Certification+Guide&qid=1712578032&s=books&sprefix=azure+data+engineer+associate+certification+guide%2Cstripbooks%2C286&sr=1-7)
 
