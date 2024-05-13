@@ -1,0 +1,7 @@
+tripId,driverId,customerId,tripDate,startLocation,endLocation
+100,200,300,20220101,New York,New Jersey
+101,201,301,20220101,Miami,Dallas
+102,202,302,20220102,Phoenix,Tempe
+103,203,303,20220204,LA,San Joes
+104,204,304,20220205,Seattle,Redmond
+105,205,305,20220301,Atlanta,Chicago
