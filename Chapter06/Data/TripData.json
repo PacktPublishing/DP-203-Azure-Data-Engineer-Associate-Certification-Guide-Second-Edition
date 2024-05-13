@@ -1,0 +1,114 @@
+[
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "San Francisco",
+        "count": 4
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Dallas",
+        "count": 2
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Atlanta",
+        "count": 1
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Tempe",
+        "count": 8
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "San Jose",
+        "count": 3
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Denver",
+        "count": 5
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Chicago",
+        "count": 6
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "New York",
+        "count": 7
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Los Angeles",
+        "count": 9
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Miami",
+        "count": 10
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Seattle",
+        "count": 11
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Boston",
+        "count": 12
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Phoenix",
+        "count": 13
+    },
+    {
+        "window": {
+            "start": "2024-12-06T11:52:00+0000",
+            "end": "2024-12-06T11:53:00+0000"
+        },
+        "startLocation": "Philadelphia",
+        "count": 14
+    }
+]
