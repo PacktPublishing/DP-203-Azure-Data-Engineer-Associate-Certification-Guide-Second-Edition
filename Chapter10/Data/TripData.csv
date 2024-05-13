@@ -1,1 +1,5 @@
-
+driverId,firstName,middleName,lastName,city,gender,salary,Date
+1,John,,Smith,New York,Male,50000,23/04/2024
+2,Emma,Grace,Johnson,Los Angeles,Female,48000,23/04/2024
+3,Michael,,Williams,Chicago,Male,52000,23/04/2024
+4,Olivia,,Brown,San Francisco,Female,49000,23/04/2024
