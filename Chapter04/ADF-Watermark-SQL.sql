@@ -1,7 +1,9 @@
 -- Watermarks Example Code for ADF.
 
--- Create a FactTrips Table
 
+DROP TABLE IF EXISTS  [dbo].[FactTrips];
+
+-- Create a FactTrips Table
 CREATE TABLE FactTrips 
 (
 TripIDF INT,
@@ -15,9 +17,9 @@ INSERT INTO [dbo].[FactTrips] values (100, 200, CURRENT_TIMESTAMP);
 INSERT INTO [dbo].[FactTrips] values (101, 201, CURRENT_TIMESTAMP);
 INSERT INTO [dbo].[FactTrips] values (102, 202, CURRENT_TIMESTAMP);
 
--- Create a Watermark Table
 DROP TABLE WatermarkTable;
 
+-- Create a Watermark Table
 CREATE TABLE WatermarkTable
 (
   [TableName] VARCHAR(100),
