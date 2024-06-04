@@ -1,21 +1,21 @@
 tripId,driverId,customerId,tripDate,startLocation,endLocation,driverName,customerName,tripAmount
-146,200,300,20240105,New York,Miami,John Smith,Alice Lee,54.32
-147,201,301,20240117,Los Angeles,Seattle,Emily Johnson,Tom Clark,62.75
-148,202,302,20240210,San Francisco,Denver,Michael Williams,Lucy Lewis,47.89
-149,203,303,20240323,Miami,Boston,Jessica Brown,Sophia Walker,72.15
-150,204,304,20240405,Atlanta,Chicago,David Jones,Henry Hall,38.27
-151,205,305,20240512,Seattle,Phoenix,Chris Davis,Liam Allen,53.64
-152,206,306,20240414,Phoenix,New York,Patricia Garcia,Oliver Young,81.52
-153,209,311,20240325,Denver,Los Angeles,Robert Miller,Mason King,69.47
-154,212,320,20240303,Houston,San Francisco,Mary Martinez,Ethan Scott,44.19
-155,216,321,20240221,Chicago,Miami,James Hernandez,Aiden Green,57.88
-156,217,322,20241011,Boston,Atlanta,Daniel Lopez,Logan Baker,49.63
-157,222,328,20240105,Las Vegas,Houston,Sarah Wilson,Lucas Adams,61.74
-158,225,330,20240218,New York,Denver,Mark Anderson,Benjamin Nelson,73.25
-159,230,334,20240128,Los Angeles,Seattle,Paul Taylor,Noah Carter,59.36
-160,235,336,20240315,Miami,New York,Jennifer Moore,Elijah Mitchell,85.14
-161,238,341,20240509,Denver,San Francisco,Andrew Jackson,Alexander Perez,46.97
-162,240,346,20240530,Chicago,Phoenix,Samantha Thomas,William Roberts,50.45
-163,246,347,20240414,Houston,Atlanta,Linda White,Sebastian Turner,64.29
-164,200,349,20240223,Seattle,Boston,John Smith,Matthew Phillips,52.37
-165,201,350,20240607,Phoenix,Los Angeles,Emily Johnson,Daniel Campbell,78.56
+146,200,300,05/01/2024,New York,Miami,John Smith,Alice Lee,54.32
+147,201,301,17/01/2024,Los Angeles,Seattle,Emily Johnson,Tom Clark,62.75
+148,202,302,10/02/2024,San Francisco,Denver,Michael Williams,Lucy Lewis,47.89
+149,203,303,23/03/2024,Miami,Boston,Jessica Brown,Sophia Walker,72.15
+150,204,304,05/04/2024,Atlanta,Chicago,David Jones,Henry Hall,38.27
+151,205,305,12/05/2024,Seattle,Phoenix,Chris Davis,Liam Allen,53.64
+152,206,306,14/04/2024,Phoenix,New York,Patricia Garcia,Oliver Young,81.52
+153,209,311,25/03/2024,Denver,Los Angeles,Robert Miller,Mason King,69.47
+154,212,320,03/03/2024,Houston,San Francisco,Mary Martinez,Ethan Scott,44.19
+155,216,321,21/02/2024,Chicago,Miami,James Hernandez,Aiden Green,57.88
+156,217,322,11/10/2024,Boston,Atlanta,Daniel Lopez,Logan Baker,49.63
+157,222,328,05/01/2024,Las Vegas,Houston,Sarah Wilson,Lucas Adams,61.74
+158,225,330,18/02/2024,New York,Denver,Mark Anderson,Benjamin Nelson,73.25
+159,230,334,28/01/2024,Los Angeles,Seattle,Paul Taylor,Noah Carter,59.36
+160,235,336,15/03/2024,Miami,New York,Jennifer Moore,Elijah Mitchell,85.14
+161,238,341,09/03/2024,Denver,San Francisco,Andrew Jackson,Alexander Perez,46.97
+162,240,346,30/05/2024,Chicago,Phoenix,Samantha Thomas,William Roberts,50.45
+163,246,347,14/04/2024,Houston,Atlanta,Linda White,Sebastian Turner,64.29
+164,200,349,23/02/2024,Seattle,Boston,John Smith,Matthew Phillips,52.37
+165,201,350,07/06/2024,Phoenix,Los Angeles,Emily Johnson,Daniel Campbell,78.56
