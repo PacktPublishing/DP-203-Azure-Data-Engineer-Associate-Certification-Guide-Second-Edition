@@ -1,0 +1,21 @@
+tripId,driverId,customerId,tripDate,startLocation,endLocation,driverName,customerName,tripAmount
+126,211,347,21/08/2023,Denver,Houston,NaN,Sebastian Turner,94.17
+127,241,346,09/05/2023,Houston,Las Vegas,NaN,William Roberts,63.65
+128,201,339,16/11/2023,Boston,Houston,Emily Johnson,NaN,84.22
+129,250,306,14/08/2023,San Francisco,Seattle,NaN,Oliver Young,25
+130,244,341,16/08/2023,Houston,LA,NaN,Alexander Perez,31.93
+131,218,329,14/10/2023,Denver,Boston,NaN,NaN,20.21
+132,204,307,09/05/2023,Seattle,Atlanta,David Jones,NaN,75.33
+133,201,332,09/05/2023,New York,Phoenix,Emily Johnson,NaN,79.63
+134,215,339,19/02/2023,Houston,Atlanta,NaN,NaN,62.84
+135,218,313,06/04/2023,Phoenix,Atlanta,NaN,Jacob Wright,83.85
+136,234,302,04/04/2023,Boston,San Francisco,NaN,Lucy Lewis,75.09
+137,211,324,16/10/2023,Seattle,Atlanta,NaN,NaN,79.96
+138,223,328,16/03/2023,San Francisco,Seattle,NaN,Lucas Adams,32.46
+139,203,317,09/05/2023,Miami,Houston,Jessica Brown,NaN,28.26
+140,211,339,02/12/2023,Las Vegas,Miami,NaN,NaN,55.86
+141,215,334,14/08/2023,New York,Boston,NaN,Noah Carter,73.08
+142,213,329,01/03/2023,LA,Phoenix,NaN,NaN,94.77
+143,220,338,09/05/2023,Las Vegas,Miami,NaN,NaN,77.39
+144,246,318,14/08/2023,Boston,Seattle,Linda White,NaN,21.5
+145,203,326,12/11/2023,Seattle,LA,Jessica Brown,NaN,58.86

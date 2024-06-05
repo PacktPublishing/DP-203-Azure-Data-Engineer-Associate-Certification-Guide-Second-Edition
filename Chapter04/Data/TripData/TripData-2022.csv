@@ -1,0 +1,27 @@
+tripId,driverId,customerId,tripDate,startLocation,endLocation,driverName,customerName,tripAmount
+100,200,300,01/01/2022,New York,New Jersey,John Smith,Alice Lee,63.77
+101,201,301,01/01/2022,Miami,Dallas,Emily Johnson,Tom Clark,42.67
+102,202,302,02/01/2022,Phoenix,Tempe,Michael Williams,Lucy Lewis,48.51
+103,203,303,04/02/2022,LA,San Joes,Jessica Brown,Sophia Walker,65.92
+104,204,304,05/02/2022,Seattle,Redmond,David Jones,Henry Hall,49.75
+105,205,305,01/03/2022,Atlanta,Chicago,Chris Davis,Liam Allen,51.66
+106,217,304,05/07/2022,Las Vegas,Miami,Daniel Lopez,Henry Hall,72.14
+107,222,336,30/06/2022,Miami,Phoenix,Sarah Wilson,Elijah Mitchell,78.62
+108,204,330,10/06/2022,Denver,New York,David Jones,Benjamin Nelson,39.27
+109,246,320,15/07/2022,Atlanta,LA,Linda White,Ethan Scott,99.17
+110,230,313,12/11/2022,LA,Miami,Paul Taylor,Jacob Wright,77.12
+111,235,321,31/08/2022,Phoenix,Phoenix,Jennifer Moore,Aiden Green,71.08
+112,240,350,27/12/2022,San Francisco,Atlanta,Samantha Thomas,Daniel Campbell,56.12
+113,225,313,15/12/2022,Boston,Las Vegas,Mark Anderson,Jacob Wright,36.49
+114,238,346,04/07/2022,Phoenix,Houston,Andrew Jackson,William Roberts,49.98
+115,200,341,26/06/2022,Las Vegas,LA,John Smith,Alexander Perez,56.27
+116,240,306,12/11/2022,New York,San Francisco,Samantha Thomas,Oliver Young,59
+117,209,328,30/07/2022,Las Vegas,New York,Robert Miller,Lucas Adams,81.86
+118,212,334,15/12/2022,Atlanta,Miami,Mary Martinez,Noah Carter,75.53
+119,200,347,10/06/2022,San Francisco,New York,John Smith,Sebastian Turner,23.51
+120,216,330,21/01/2022,Phoenix,Miami,James Hernandez,Benjamin Nelson,41.69
+121,206,302,03/08/2022,Denver,Phoenix,Patricia Garcia,Lucy Lewis,29.79
+122,201,311,20/05/2022,San Francisco,Las Vegas,Emily Johnson,Mason King,94.12
+123,200,322,31/08/2022,Seattle,Boston,John Smith,Logan Baker,79.82
+124,205,337,01/01/2022,Las Vegas,LA,Chris Davis,NaN,76.81
+125,206,349,02/06/2022,Phoenix,San Francisco,Patricia Garcia,Matthew Phillips,79.9
