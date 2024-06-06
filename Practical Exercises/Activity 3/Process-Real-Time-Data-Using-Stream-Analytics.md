@@ -13,7 +13,7 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
 
 2. Observe that the input data includes the **tripId**, **driverId**, **customerId**, **tripDate**, **startLocation**, **endLocation**, **driverName**, **customerName** and **tripAmount** fields in the messages submitted by EventHub , as well as additional Event Hubs fields - including the **EventProcessedUtcTime** field that indicates when the event was added to the event hub.
 
-3. Modify the default query as follows:
+3. Use the query as follows:
 
     ```
     SELECT
@@ -31,19 +31,19 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
 
     Observe that this query uses the **System.Timestamp** (based on the **EventProcessedUtcTime** field) to define the start and end of each 10 second *tumbling* (non-overlapping sequential) window in which the total quantity for each driverID is calculated.
 
-4. Use the **&#9655; Test query** button to validate the query, and ensure that the **test Results** status indicates **Success**.
+4. Use the **Test query** button to validate the query, and ensure that the **test Results** status indicates **Success**.
 
 5. Save the query.
 
 ## Run the streaming job
 
-OK, now you're ready to run the job and process some real-time IAC-TripData.
+OK, now you're ready to run the job and process stream IAC-TripData.
 
 1. View the **Overview** page for the tream Analytics job, and on the **Properties** tab review the **Inputs**, **Query**, **Outputs**, and **Functions** for the job. 
 
 2. Select the **Start** button, and start the streaming job now. Wait until you are notified that the streaming job started successfully.
 
-3. While the stream events are running in the Azure portal, return to the storage account Azure ADLS Gen2.
+3. While the stream events are running in the Azure portal, return to the storage account **Azure ADLS Gen2**.
 
 4. Select the **Container**, you configured in the storage account to store the output data stream.
 
