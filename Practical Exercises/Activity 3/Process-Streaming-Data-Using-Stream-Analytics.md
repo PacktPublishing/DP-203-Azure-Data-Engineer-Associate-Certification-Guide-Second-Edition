@@ -5,7 +5,7 @@ Before creating an Azure Stream Analytics job to process real-time data, let's t
 
 https://github.com/PacktPublishing/DP-203-Azure-Data-Engineer-Associate-Certification-Guide-Second-Edition/blob/main/Practical%20Exercises/Activity%203/Data/IAC-TripData.json
 
-## Create a query
+## Create a Query
 
 Once you defined an input and an output for your Azure Stream Analytics job, you can use a query to select, filter, and aggregate data from the input and send the results to the output.
 
@@ -13,7 +13,7 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
 
 2. Observe that the input data includes the **tripId**, **driverId**, **customerId**, **tripDate**, **startLocation**, **endLocation**, **driverName**, **customerName** and **tripAmount** fields in the messages submitted by EventHub , as well as additional Event Hubs fields - including the **EventProcessedUtcTime** field that indicates when the event was added to the event hub.
 
-3. Use the query as follows: 
+3. Use the Query as follows: 
 
     ```
     SELECT
@@ -35,7 +35,7 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
 
 5. Save the query.
 
-## Run the streaming job
+## Run the Streaming Job
 
 OK, now you're ready to run the job and process stream IAC-TripData.
 
