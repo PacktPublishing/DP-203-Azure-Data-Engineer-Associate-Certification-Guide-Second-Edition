@@ -24,7 +24,7 @@ You'll also need access to the Microsoft Power BI service. Your school or organi
         driverId,
         SUM(tripAmount) AS TripAmount
     INTO
-        [powerbi-dataset]
+        [PowerBI-Dataset]
     FROM
         [IACTripEventHub] TIMESTAMP BY EventEnqueuedUtcTime
     GROUP BY driverId, TumblingWindow(second, 5)
@@ -41,7 +41,7 @@ You'll also need access to the Microsoft Power BI service. Your school or organi
     SELECT
     COUNT(DISTINCT tripId) AS TripCount,
     System.TIMESTAMP() AS Time
-    INTO [powerbi-dataset]
+    INTO [PowerBI-Dataset]
     FROM [IACTripEventHub] TIMESTAMP BY createdAt
     GROUP BY 
     TumblingWindow(second, 10)1
@@ -52,7 +52,7 @@ You'll also need access to the Microsoft Power BI service. Your school or organi
 
     ```
     SELECT tripId, SUM(CAST(tripAmount AS FLOAT)) AS TenSecondFare
-    INTO [powerbi-dataset]
+    INTO [PowerBI-Dataset]
     FROM [IACTripEventHub] TIMESTAMP BY createdAt
     GROUP BY tripId, TumblingWindow(second, 10)
     ```
@@ -61,7 +61,7 @@ You'll also need access to the Microsoft Power BI service. Your school or organi
 
     ```
     SELECT *
-    INTO [powerbi-dataset]
+    INTO [PowerBI-Dataset]
     FROM [IACTripEventHub] TIMESTAMP BY timestamp
     WHERE startLocation LIKE 'S%F'
     ```
