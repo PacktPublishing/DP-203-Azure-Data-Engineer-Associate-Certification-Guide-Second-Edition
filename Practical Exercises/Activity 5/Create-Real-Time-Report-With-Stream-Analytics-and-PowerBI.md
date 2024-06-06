@@ -38,33 +38,32 @@ You'll also need access to the Microsoft Power BI service. Your school or organi
 ## Create a Query to Count the Trips
 
     ```
- SELECT
+    SELECT
     COUNT(DISTINCT tripId) AS TripCount,
     System.TIMESTAMP() AS Time
-INTO [powerbi-dataset]
-FROM [IACTripEventHub] TIMESTAMP BY createdAt
-GROUP BY 
-     TumblingWindow(second, 10)1
+    INTO [powerbi-dataset]
+    FROM [IACTripEventHub] TIMESTAMP BY createdAt
+    GROUP BY 
+    TumblingWindow(second, 10)1
     ```
 
 
 ## Create a Query to Summarize the Trip Amounts for start and end of each 10 second tumbling (non-overlapping sequential) window.
 
     ```
-SELECT tripId, SUM(CAST(tripAmount AS FLOAT)) AS TenSecondFare
-INTO [powerbi-dataset]
-FROM [IACTripEventHub] TIMESTAMP BY createdAt
-GROUP BY
-    tripId, TumblingWindow(second, 10)
+    SELECT tripId, SUM(CAST(tripAmount AS FLOAT)) AS TenSecondFare
+    INTO [powerbi-dataset]
+    FROM [IACTripEventHub] TIMESTAMP BY createdAt
+    GROUP BY tripId, TumblingWindow(second, 10)
     ```
 
 ## Create a Query to Filter the Trip Start Location
 
     ```
-SELECT *
-INTO [powerbi-dataset]
-FROM [IACTripEventHub] TIMESTAMP BY timestamp
-WHERE startLocation LIKE 'S%F'
+    SELECT *
+    INTO [powerbi-dataset]
+    FROM [IACTripEventHub] TIMESTAMP BY timestamp
+    WHERE startLocation LIKE 'S%F'
     ```
 
 
