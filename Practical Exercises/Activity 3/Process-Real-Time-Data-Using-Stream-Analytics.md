@@ -22,9 +22,9 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
         driverId,
         SUM(tripAmount) AS TripAmount
     INTO
-        [IACTripStorage] # Change this Output with your Storage Account
+        [IACTripStorage] # Change this "IACTripStorage" Output with your Storage Account
     FROM
-        [IACTripEventHub] TIMESTAMP BY EventProcessedUtcTime  # Change this Input with your EventHub Name
+        [IACTripEventHub] TIMESTAMP BY EventProcessedUtcTime  # Change this Input "IACTripEventHub" with your EventHub Name
     GROUP BY driverId, TumblingWindow(second, 10)
     HAVING COUNT(*) > 1
     ```
