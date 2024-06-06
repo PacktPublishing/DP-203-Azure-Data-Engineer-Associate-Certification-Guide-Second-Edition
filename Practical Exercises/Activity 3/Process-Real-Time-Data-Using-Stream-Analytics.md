@@ -13,7 +13,7 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
 
 2. Observe that the input data includes the **tripId**, **driverId**, **customerId**, **tripDate**, **startLocation**, **endLocation**, **driverName**, **customerName** and **tripAmount** fields in the messages submitted by EventHub , as well as additional Event Hubs fields - including the **EventProcessedUtcTime** field that indicates when the event was added to the event hub.
 
-3. Use the query as follows:
+3. Use the query as follows: 
 
     ```
     SELECT
@@ -22,9 +22,9 @@ Once you defined an input and an output for your Azure Stream Analytics job, you
         driverId,
         SUM(tripAmount) AS TripAmount
     INTO
-        [IACTripStorage]
+        [IACTripStorage] # Change this Output with your Storage Account
     FROM
-        [IACTripEventHub] TIMESTAMP BY EventProcessedUtcTime
+        [IACTripEventHub] TIMESTAMP BY EventProcessedUtcTime  # Change this Input with your EventHub Name
     GROUP BY driverId, TumblingWindow(second, 10)
     HAVING COUNT(*) > 1
     ```
