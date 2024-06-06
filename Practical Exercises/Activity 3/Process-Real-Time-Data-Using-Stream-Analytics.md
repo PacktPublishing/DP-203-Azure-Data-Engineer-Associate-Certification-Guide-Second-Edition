@@ -92,4 +92,4 @@ OK, now you're ready to run the job and process stream IAC-TripData.
 ```
 
 7. Refresh the file to see the full set of results that were produced.
-8. Return to the Stream Analytics Job; At the top of the Stream Analytics job page, use the **Stop** button to stop the job.
+8. Return to the Stream Analytics Job; At the top of the Stream Analytics job page, use the **Stop** button to stop the streaming job.
